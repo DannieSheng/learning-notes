@@ -1,7 +1,7 @@
 # Notes for several interested subjects
 
-## [Fundamentals of Music Theory]
+## [Fundamentals of Music Theory](Fundamentals-of-music-theory)
 
-## [HTML](./HTML/info.md)
+## [HTML](./HTML)
 
 ## [Japanese](./Japanese)
