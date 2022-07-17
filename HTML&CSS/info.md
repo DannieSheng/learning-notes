@@ -7,15 +7,17 @@
 
 ### HTML (HyperText Markup Language)  
 1. Elements and Structure
-  - [Cheatsheet](./HTML_Elements%20and%20Structure.pdf)
+  - [Cheatsheet](./cheatsheet/HTML_Elements%20and%20Structure.pdf)
   - [x] [Project: Fashion Blog](https://www.codecademy.com/courses/learn-html/projects/html-fashion-blog)
 2. Tables
-  - [Cheatsheet](./HTML_Tables%20.pdf)
+  - [Cheatsheet](./cheatsheet/HTML_Tables%20.pdf)
   - [x] [Project: Wine Festival Schedule](https://www.codecademy.com/courses/learn-html/projects/html-wine-festival-schedule)
 3. Forms
-  - [Cheatsheet](./HTML%20Forms.pdf)
+  - [Cheatsheet](./cheatsheet/HTML%20Forms.pdf)
   - [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
   - [x] [Project: Form a Story](https://www.codecademy.com/courses/learn-html/projects/form-a-story)
 4. Semantic HTML
-  - [Cheatsheet](./HTML_%20Semantic.pdf)
-#### CSS (Cascading Style Sheets)
+  - [Cheatsheet](./cheatsheet/HTML_%20Semantic.pdf)
+  - [x] [Project: New York City Blog](https://www.codecademy.com/courses/learn-html/projects/semantic-html-nyc-blog)
+
+### CSS (Cascading Style Sheets)
