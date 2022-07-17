@@ -22,9 +22,11 @@ other.
 
 ### Scale
 #### Major Scale
+Seven Diatonic Modes:   
+**I** **D**on't **P**unch **L**ike **M**uhammad **A** **L**i.
+![DiatonicModes](images/Seven_Diatonic_Modes.png)
 ##### C Major: 
 (C = Tonic) Ionian mode
-![Cmajor](images/C_major_scale.png)
 C - (T) - D - (T) - E- (S) - F - (T) -  G - (T) -  A - (T) -  B - (S) -  C
 
 ##### D Major: Dorian mode
@@ -39,7 +41,7 @@ F - G - A - B - C - D - E - F
 ##### G Major: Mixolydian mode
 G - A - B - C - D - E - F - G
 
-##### A Major: Aeolian Mode
+##### Aeolian Mode (The A Natural minor scale)
 A - B - C - D - E - F - G - A
 
 ##### B Major: Locrian Mode
