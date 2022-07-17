@@ -6,6 +6,7 @@
 5. 授業「じゅぎょう」 class (*n.*)
 6. くしゃみをする　sneeze (*phrase*)
 7. 鏡「かがみ」mirror (*n.*)
+8. 家「いえ」house (*n.*)
 
 
 ### Count Numbers

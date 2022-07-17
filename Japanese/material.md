@@ -1,6 +1,11 @@
-## Material I used
+## Concepts
+1. 仮名「かな」
+   1. 平仮名「ひらがな」
+   2. 片仮名「カタカナ」
+2. 
 
 ---
+## Material I used
 ### [Japanese syllabary / 五十音图](https://www.bilibili.com/video/BV1BC4y1h7wt?p=2)
 ### Useful shares
 - [1](https://www.douban.com/group/topic/34804479/)
