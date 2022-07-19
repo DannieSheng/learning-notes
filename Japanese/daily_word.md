@@ -8,6 +8,7 @@
 7. 鏡「かがみ」mirror (*n.*)
 8. 家「いえ」house (*n.*)
 9. バーベキューする barbecue (*v.*)
+10. 雲「くも」(*n.*)
 
 
 ### Count Numbers
