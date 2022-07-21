@@ -10,6 +10,7 @@
 9. バーベキューする barbecue (*v.*)
 10. 雲「くも」(*n.*)
 11. アフリカ　Africa (*n.*)
+12. 左折「させつ」left turn (*n.*)
 
 
 ### Count Numbers
