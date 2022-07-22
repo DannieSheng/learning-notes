@@ -11,6 +11,7 @@
 10. 雲「くも」(*n.*)
 11. アフリカ　Africa (*n.*)
 12. 左折「させつ」left turn (*n.*)
+13. 猪「いのしし」wild boar (*n.*)
 
 
 ### Count Numbers
