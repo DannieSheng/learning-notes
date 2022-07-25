@@ -2,7 +2,8 @@
 1. 仮名「かな」
    1. 平仮名「ひらがな」
    2. 片仮名「カタカナ」
-2. 
+2. 漢字「かんじ」
+3. ローマ字「じ」
 
 ---
 ## Material I used
@@ -11,3 +12,4 @@
 - [1](https://www.douban.com/group/topic/34804479/)
 - [2](https://www.jianshu.com/p/40cbe6a079b3)
 - [Meet-ups](https://www.meetup.com/ohanasi-kagawa-dallas/events/286503783/)
+- [Japanese with Anime](https://www.japanesewithanime.com/)
