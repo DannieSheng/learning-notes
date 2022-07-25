@@ -12,6 +12,8 @@
 11. アフリカ　Africa (*n.*)
 12. 左折「させつ」left turn (*n.*)
 13. 猪「いのしし」wild boar (*n.*)
+14. 店「みせ」store (*n.*)
+15. 親指「おやゆび」thumb (*n.*)
 
 
 ### Count Numbers
