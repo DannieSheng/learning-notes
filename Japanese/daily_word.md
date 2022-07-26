@@ -14,6 +14,7 @@
 13. 猪「いのしし」wild boar (*n.*)
 14. 店「みせ」store (*n.*)
 15. 親指「おやゆび」thumb (*n.*)
+16. コンビニンスストア convenience store (*n.*)
 
 
 ### Count Numbers
