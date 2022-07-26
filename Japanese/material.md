@@ -13,3 +13,6 @@
 - [2](https://www.jianshu.com/p/40cbe6a079b3)
 - [Meet-ups](https://www.meetup.com/ohanasi-kagawa-dallas/events/286503783/)
 - [Japanese with Anime](https://www.japanesewithanime.com/)
+- [Japanese Core 100 Word List](https://www.japanesepod101.com/japanese-word-lists/?coreX=100&src=lp_wotd)
+- [Japanese Dictionary](https://www.japanesepod101.com/japanese-dictionary/?src=lp_wotd)
+- [Vocabulary Lists](https://www.japanesepod101.com/japanese-vocabulary-lists/?src=lp_wotd)
