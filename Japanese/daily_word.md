@@ -15,6 +15,7 @@
 14. 店「みせ」store (*n.*)
 15. 親指「おやゆび」thumb (*n.*)
 16. コンビニンスストア convenience store (*n.*)
+17. 靴屋「くつや」shoe store (*n.*)
 
 
 ### Count Numbers
