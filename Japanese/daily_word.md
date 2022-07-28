@@ -16,6 +16,7 @@
 15. 親指「おやゆび」thumb (*n.*)
 16. コンビニンスストア convenience store (*n.*)
 17. 靴屋「くつや」shoe store (*n.*)
+18. 血液「けつえき」blood (*n.*)
 
 
 ### Count Numbers
