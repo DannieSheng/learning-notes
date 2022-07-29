@@ -18,6 +18,7 @@
 17. 靴屋「くつや」shoe store (*n.*)
 18. 血液「けつえき」blood (*n.*)
 19. 白い「しろい」white (*n.*)
+20. 読む「よむ」read (*v.*)
 
 
 ### Count Numbers
