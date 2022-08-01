@@ -19,6 +19,13 @@
 18. 血液「けつえき」blood (*n.*)
 19. 白い「しろい」white (*n.*)
 20. 読む「よむ」read (*v.*)
+21. 着る「きる」wear (*v.*)
+22. 背中「せなか」one's back
+23. 晴れ「はれ」sunny
+24. 甘い「あまい」sweet
+25. 欲しい「ほしい」want
+26. 汚い「きたない」dirty
+27. シャワー　shower (*n.*)
 
 
 ### Count Numbers

@@ -16,3 +16,6 @@
 - [Japanese Core 100 Word List](https://www.japanesepod101.com/japanese-word-lists/?coreX=100&src=lp_wotd)
 - [Japanese Dictionary](https://www.japanesepod101.com/japanese-dictionary/?src=lp_wotd)
 - [Vocabulary Lists](https://www.japanesepod101.com/japanese-vocabulary-lists/?src=lp_wotd)
+- [Related to the Universe](https://www.japanesepod101.com/japanese-vocabulary-lists/astrophysics-mapping-the-universe)
+- [Energy Production](https://www.japanesepod101.com/japanese-vocabulary-lists/energy-production-common-terms)
+- [Daily Routine](https://www.japanesepod101.com/japanese-vocabulary-lists/daily-routines)
