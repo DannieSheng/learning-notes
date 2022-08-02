@@ -26,6 +26,8 @@
 25. 欲しい「ほしい」want
 26. 汚い「きたない」dirty
 27. シャワー　shower (*n.*)
+28. 縫う「ぬう」sew (*v.*)
+29. 炊飯器「すいはんき」electric rice cooker (*n.*)
 
 
 ### Count Numbers
