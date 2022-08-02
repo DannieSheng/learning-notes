@@ -20,14 +20,15 @@
 19. 白い「しろい」white (*n.*)
 20. 読む「よむ」read (*v.*)
 21. 着る「きる」wear (*v.*)
-22. 背中「せなか」one's back
-23. 晴れ「はれ」sunny
-24. 甘い「あまい」sweet
-25. 欲しい「ほしい」want
-26. 汚い「きたない」dirty
-27. シャワー　shower (*n.*)
-28. 縫う「ぬう」sew (*v.*)
-29. 炊飯器「すいはんき」electric rice cooker (*n.*)
+22. 飲む「のむ」to drink (*v.*)
+23. 背中「せなか」one's back
+24. 晴れ「はれ」sunny
+25. 甘い「あまい」sweet
+26. 欲しい「ほしい」want
+27. 汚い「きたない」dirty
+28. シャワー　shower (*n.*)
+29. 縫う「ぬう」sew (*v.*)
+30. 炊飯器「すいはんき」electric rice cooker (*n.*)
 
 
 ### Count Numbers
