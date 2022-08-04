@@ -29,6 +29,8 @@
 28. シャワー　shower (*n.*)
 29. 縫う「ぬう」sew (*v.*)
 30. 炊飯器「すいはんき」electric rice cooker (*n.*)
+31. 同僚「どうりょう」coworker (*n.*)
+32. 歯「は」ブラシ　toothbrush (*n.*)
 
 
 ### Count Numbers
