@@ -31,6 +31,11 @@
 30. 炊飯器「すいはんき」electric rice cooker (*n.*)
 31. 同僚「どうりょう」coworker (*n.*)
 32. 歯「は」ブラシ　toothbrush (*n.*)
+33. 庭「にわ」garden (*n.*)
+34. アメリカ　合衆国「がっしゅうこく」United States of America (*proper n.*)
+35. 作家「さっか」author (*n.*)
+36. ナイフ knife  (*n.*)
+37. メートル meter (*counter*)
 
 
 ### Count Numbers
