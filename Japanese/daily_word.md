@@ -36,6 +36,7 @@
 35. 作家「さっか」author (*n.*)
 36. ナイフ knife  (*n.*)
 37. メートル meter (*counter*)
+38. 魚「さかな」fish (*n.*)
 
 
 ### Count Numbers
