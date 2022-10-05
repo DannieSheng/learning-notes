@@ -22,6 +22,17 @@
 ## Machine Learning
 * Machine Learning with Python: A Practical Introduction | IBM via edX
 * [Practical Deep Learning for Coders — Full Course from fast.ai and Jeremy Howard | freeCodeCamp](https://www.youtube.com/watch?v=0oyCUWLL_fU&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s&index=2)
+* [Google Machine Learning Education](https://developers.google.com/machine-learning)
+* [Introduction to Machine Learning Interviews](https://huyenchip.com/ml-interviews-book/)
+
+## Deep Learning
+* [CS231n CNN for Visual Recognition](https://cs231n.github.io/)
+* [Practical Deep Learning (fast.ai)](https://course.fast.ai/)
+
+## Reinforcement Learning
+* [Reinforcement Learning 101](https://towardsdatascience.com/reinforcement-learning-101-e24b50e1d292)
+* [UCL Course for RL](https://www.davidsilver.uk/teaching/)
+* [Reinforcement Learning-An Introduction book](http://incompleteideas.net/book/the-book-2nd.html)
 
 ## Projects
 * [5 Concrete Projects](https://towardsdatascience.com/5-concrete-real-world-projects-to-build-up-your-data-science-portfolio-ef44509abdd7)
