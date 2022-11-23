@@ -14,6 +14,7 @@ GET参数通过URL传递，POST放在Request body中。
 * Unpacking arguments and keyword arguments
 * __str__ and __repr__
 * class composition  
+* type hinting
 * @functools.wrap when using @ decorators  
 * decortors with parameters -> use *args and */*kwargs
 * Try ... Except ... Except ... Else ... Finally ...
