@@ -13,6 +13,7 @@ GET参数通过URL传递，POST放在Request body中。
 #### Object-Oriented Programming in Python
 * Unpacking arguments and keyword arguments
 * __str__ and __repr__
+* [class method](https://iscinumpy.gitlab.io/post/factory-classmethods-in-python/) (instead of class instance method)
 * class composition  
 * type hinting
 * @functools.wrap when using @ decorators  
