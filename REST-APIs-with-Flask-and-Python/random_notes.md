@@ -8,3 +8,13 @@ GET请求在URL中传送的参数是有长度限制的，而POST么有。
 对参数的数据类型，GET只接受ASCII字符，而POST没有限制。
 GET比POST更不安全，因为参数直接暴露在URL上，所以不能用来传递敏感信息。
 GET参数通过URL传递，POST放在Request body中。
+
+## Python Refresher
+#### Object-Oriented Programming in Python
+* Unpacking arguments and keyword arguments
+* __str__ and __repr__
+* class composition  
+* @functools.wrap when using @ decorators  
+* decortors with parameters -> use *args and */*kwargs
+* Try ... Except ... Except ... Else ... Finally ...
+* Do not use mutable value as default parameters
