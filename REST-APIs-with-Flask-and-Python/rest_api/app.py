@@ -14,16 +14,19 @@ stores = [
     }
 ]
 
-@app.get("/store") #  http://127.0.0.1:5000/store
+
+@app.get("/store")  # http://127.0.0.1:5000/store
 def get_stores():
     return {"stores": stores}
+
 
 @app.post("/store")
 def create_store():
     request_data = request.get_json()
     new_store = {"name": request_data["name"], "items": []}
     stores.append(new_store)
-    return new_store, 201 # 201 is the status code
+    return new_store, 201  # 201 is the status code
+
 
 @app.post("/store/<string:name>/item")
 def create_item(name):
@@ -36,14 +39,15 @@ def create_item(name):
     return {"message": "Store not found"}, 404
 
 
-@app.get("/store/<string:name>") #  http://127.0.0.1:5000/store/name
+@app.get("/store/<string:name>")  # http://127.0.0.1:5000/store/name
 def get_store(name):
     for store in stores:
         if store["name"] == name:
             return store
         return {"message": "Store not found"}, 404
 
-@app.get("/store/<string:name>/item") #  http://127.0.0.1:5000/store/name/item
+
+@app.get("/store/<string:name>/item")  # http://127.0.0.1:5000/store/name/item
 def get__item_in_store(name):
     for store in stores:
         if store["name"] == name:
