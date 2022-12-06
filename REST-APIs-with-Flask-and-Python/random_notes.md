@@ -20,3 +20,5 @@ GET参数通过URL传递，POST放在Request body中。
 * decortors with parameters -> use *args and */*kwargs
 * Try ... Except ... Except ... Else ... Finally ...
 * Do not use mutable value as default parameters
+
+[Flask and Ajax](https://towardsdatascience.com/using-python-flask-and-ajax-to-pass-information-between-the-client-and-server-90670c64d688)
