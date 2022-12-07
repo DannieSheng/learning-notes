@@ -1,0 +1,1 @@
+Notes are [here at Notion](https://www.notion.so/Complete-Web-Mobile-Designer-UI-UX-Figma-and-more-ad838854bb4b4d9ab52414411dd7241e).
