@@ -86,3 +86,30 @@ A structured set of computerized data with an accessible interface
    - TIMESTAMP
    - TIME
    - YEAR
+
+### [String Functions](https://dev.mysql.com/doc/refman/8.0/en/string-functions.html)
+[slides](https://webdev.slides.com/coltsteele/mysql-refining-selections)
+- `CONCAT`
+- `CONCAT_WS`
+- `SUBSTRING` or `SUBSTR`
+- `REPLACE`
+- `REVERSE`
+- `CHAR_LENGTH`
+- `LENGTH`
+- `UPPER` or `UCASE`
+- `LOWER` or `LCASE`
+- `INSERT`
+- `LEFT`
+- `RIGHT`
+- `REPEAT`
+- `TRIM`
+
+### Refining Selections
+[slides](https://webdev.slides.com/coltsteele/mysql-refining-selections#/42)
+- `DISTINCT`
+- `ORDER BY`
+- `LIMIT`
+- `LIKE` (WILDCARDS %: 0 or 1 character, _: exact 1 character)
+
+### Aggregate Functions
+[slides](https://webdev.slides.com/coltsteele/mysql-refining-selections#/80)
