@@ -111,5 +111,20 @@ A structured set of computerized data with an accessible interface
 - `LIMIT`
 - `LIKE` (WILDCARDS %: 0 or 1 character, _: exact 1 character)
 
-### Aggregate Functions
+### [Aggregate Functions](https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html)
 [slides](https://webdev.slides.com/coltsteele/mysql-refining-selections#/80)
+- `COUNT`
+- `GROUP BY`
+- `MIN` and `MAX`
+- `SUM`
+- `AVG`
+
+### "ideal" query writing sequence 
+[Don’t Start Your SQL Queries with the ‘Select’ Statement](https://towardsdatascience.com/dont-start-your-sql-queries-with-select-clause-d30fa1b701f6)
+1. Start with `FROM`/`JOIN`
+2. Move to `WHERE`
+3. Use `GROUP BY`
+4. `HAVING`
+5. `SELECT`
+6. `ORDER BY`
+7. `LIMIT`
