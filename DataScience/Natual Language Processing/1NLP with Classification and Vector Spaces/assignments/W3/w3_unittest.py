@@ -7,7 +7,7 @@ def test_cosine_similarity(target):
     successful_cases = 0
     failed_cases = []
 
-    word_embeddings = pickle.load(open("./data/word_embeddings_subset.p", "rb"))
+    word_embeddings = pickle.load(open("data/word_embeddings_subset.p", "rb"))
 
     test_cases = [
         {
@@ -65,7 +65,7 @@ def test_euclidean(target):
     successful_cases = 0
     failed_cases = []
 
-    word_embeddings = pickle.load(open("./data/word_embeddings_subset.p", "rb"))
+    word_embeddings = pickle.load(open("data/word_embeddings_subset.p", "rb"))
 
     test_cases = [
         {
@@ -123,7 +123,7 @@ def test_get_country(target):
     successful_cases = 0
     failed_cases = []
 
-    word_embeddings = pickle.load(open("./data/word_embeddings_subset.p", "rb"))
+    word_embeddings = pickle.load(open("data/word_embeddings_subset.p", "rb"))
 
     test_cases = [
         {
@@ -249,7 +249,7 @@ def test_get_accuracy(target, data):
     successful_cases = 0
     failed_cases = []
 
-    word_embeddings = pickle.load(open("./data/word_embeddings_subset.p", "rb"))
+    word_embeddings = pickle.load(open("data/word_embeddings_subset.p", "rb"))
 
     test_cases = [
         {
