@@ -31,3 +31,101 @@
 ### Date related
 EXTRACT  
 DATE_TRUNC
+
+### Window Function
+- Running total  
+"Take the sum of *duration_seconds* over the entire result set, in order by *start_time*."
+   ```sql
+   SELECT duration_seconds,
+         SUM(duration_seconds) OVER (ORDER BY start_time) AS running_total
+   FROM tutorial.dc_bikeshare_q1_2012
+   ```
+
+
+- To narrow the window from the entire dataset to individual groups within the dataset, by `PARTITION BY`.
+   ```sql
+   SELECT start_terminal,
+         duration_seconds,
+         SUM(duration_seconds) OVER
+            (PARTITION BY start_terminal ORDER BY start_time)
+            AS running_total
+   FROM tutorial.dc_bikeshare_q1_2012
+   WHERE start_time < '2012-01-08'
+   ```
+
+- Show a running total of the duration of bike rides, grouped by end_terminal, and with ride duration sorted in descending order.
+   ```sql
+   SELECT end_terminal,
+       duration_seconds,
+       SUM(duration_seconds) OVER
+         (PARTITION BY end_terminal ORDER BY duration_seconds DESC)
+         AS running_total
+   FROM tutorial.dc_bikeshare_q1_2012
+   WHERE start_time < '2012-01-08'
+   ```
+
+- `ROW_NUMBER()`
+   ```sql
+   SELECT start_terminal,
+       start_time,
+       duration_seconds,
+       ROW_NUMBER() OVER (PARTITION BY start_terminal
+                          ORDER BY start_time)
+                    AS row_number
+   FROM tutorial.dc_bikeshare_q1_2012
+   WHERE start_time < '2012-01-08'
+   ```
+
+- `RANK()`  
+(If at some terminals have rides with two identical start times, `ROW_NUMBER()` gives different numbers, while `RANK()` would give the same number)
+   ```sql
+   SELECT start_terminal,
+       duration_seconds,
+       RANK() OVER (PARTITION BY start_terminal
+                    ORDER BY start_time)
+              AS rank
+   FROM tutorial.dc_bikeshare_q1_2012
+   WHERE start_time < '2012-01-08'
+   ```
+
+- `DENSE_RANK()`: compared to `RANK()`, no ranks would be skipped.
+e.g. 
+   - `RANK()`: 1, 2, 2, 2, 5
+   - `DENSE_RANK()`: 1, 2, 2, 2, 3
+
+- `NTILE(n)`
+   - `NTILE(100)` -> percentile
+
+- `LAG(colname, num_rows_away)` (pulls from previous rows) 
+and `LEAD(colname, num_rows_away)` (pulls from following rows) 
+
+- Defining a window alias using `WINDOW` (after `WHERE`)
+Original:
+```sql
+SELECT start_terminal,
+       duration_seconds,
+       NTILE(4) OVER
+         (PARTITION BY start_terminal ORDER BY duration_seconds)
+         AS quartile,
+       NTILE(5) OVER
+         (PARTITION BY start_terminal ORDER BY duration_seconds)
+         AS quintile,
+       NTILE(100) OVER
+         (PARTITION BY start_terminal ORDER BY duration_seconds)
+         AS percentile
+   FROM tutorial.dc_bikeshare_q1_2012
+ WHERE start_time < '2012-01-08'
+ ORDER BY start_terminal, duration_seconds
+ ```
+
+ Using sindow alias:
+ ```sql
+SELECT start_terminal,
+      duration_seconds,
+      NTILE(4) OVER ntile_window AS quartile,
+      NTILE(5) OVER ntile_window AS quintile,
+      NTILE(100) OVER ntile_window AS percentile
+  FROM tutorial.dc_bikeshare_q1_2012
+WHERE start_time < '2012-01-08'
+WINDOW ntile_window AS (PARTITION BY start_terminal ORDER BY duration_seconds)
+ ```
