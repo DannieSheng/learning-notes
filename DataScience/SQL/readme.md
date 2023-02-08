@@ -29,8 +29,11 @@
 
 ## SQL notes
 ### Date related
-EXTRACT  
-DATE_TRUNC
+`EXTRACT`  
+`DATE_TRUNC`  
+
+### Miscellaneous
+`COALESCE`: Return the first non-null value in a list
 
 ### Window Function
 - Running total  
