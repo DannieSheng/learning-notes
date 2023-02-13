@@ -38,4 +38,8 @@ Update the JAVA_HOME to your java home directory
 export HADOOP_HOME=<Your hadoop home directory>
 export PATH=$PATH:$HADOOP_HOME/bin
 
+export JAVA_HOME=$"/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
+export HADOOP_PREFIX=/Users/hudanyunsheng/hadoop-3.3.4
+
+
 

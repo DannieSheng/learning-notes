@@ -44,9 +44,11 @@ $ nano etc/hadoop/yarn-site.xml
 
 
 4) At command line, navigate to the hadoop home directory and run 
-$ bin/hdfs namenode -format # (only the 1st time)
+$ bin/hdfs namenode -format ## (only the 1st time)
 $ sbin/start-dfs.sh
 $ sbin/start-yarn.sh 
+
+http://localhost:9870/
 
 5) When you are done with your work 
 $ sbin/stop-dfs.sh
