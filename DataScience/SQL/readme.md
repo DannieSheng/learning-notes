@@ -29,11 +29,34 @@
 
 ## SQL notes
 ### Date related
-`EXTRACT`  
-`DATE_TRUNC`  
+- `EXTRACT`: Extract the month from a date  ->  
+   `SELECT EXTRACT(MONTH FROM "2017-06-15");`  
+   ``` 
+   SELECT DAY('2000-12-31') day, 
+   MONTH('2000-12-31') month, 
+   QUARTER('2000-12-31') quarter, 
+   YEAR('2000-12-31') year;
+   ```
+
+   `SELECT WEEK('2000-12-31', 1) week`: 1-indexed
+
+
+- `DATE_TRUNC`: truncate a date or datetime value to the start of a given unit of duration  ->  
+   `SELECT DATE_TRUNC(CAST("2018-01-02" AS DATE), "month")`
+- `STR_TO_DATE(string, format)`: convert string values to date or time or DateTime values ->
+   `SELECT STR_TO_DATE('21, 07, 2023', '%d, %m, %Y')`
+- `DATE_FORMAT(date, format)`: formats a date as specified. -> 
+   `DATE_FORMAT("2017-06-15", "%M %d %Y")`
+- `CURDATE()`: current system date -> `SELECT CURDATE();`
+- `DATEDIFF`: the number of days between two date values
+- `DATE_ADD(start_date, INTERVAL expr unit)` or `DATE_SUB(start_date, INTERVAL expr unit)`: adds /substracts an interval to a DATE or DATETIME value -> `DATE_ADD('2015-01-01', INTERVAL 1 DAY) 'one day later'`
 
 ### Miscellaneous
-`COALESCE`: Return the first non-null value in a list
+`COALESCE`: Return the first non-null value in a list  
+`ROUND(NUM, n)`: rounds a number to a specified number (n) of decimal places.  
+`CEILING(NUM)`  
+`FLOOR(NUM)`  
+`LIKE` and `ILIKE`: `ILIKE` is case-insensitive 
 
 ### Window Function
 - Running total  
@@ -43,7 +66,6 @@
          SUM(duration_seconds) OVER (ORDER BY start_time) AS running_total
    FROM tutorial.dc_bikeshare_q1_2012
    ```
-
 
 - To narrow the window from the entire dataset to individual groups within the dataset, by `PARTITION BY`.
    ```sql
