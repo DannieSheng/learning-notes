@@ -79,6 +79,11 @@ class Solution:
         return pre   
     
     def split(self, head: Optional[ListNode]) -> (Optional[ListNode], Optional[ListNode]):
+        """ 
+        Split the list from middle
+        even: the splitted lists have the same length
+        odd: the 2nd list is longer
+        """
         slow, fast = head, head
         while fast and fast.next and fast.next.next and fast.next.next.next:
             slow = slow.next
@@ -86,7 +91,6 @@ class Solution:
         post_list = slow.next
         slow.next = None
         return head, post_list
-
 
     def mergeTwoSortedLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         cur1, cur2 = list1, list2
@@ -107,14 +111,12 @@ class Solution:
             p.next = cur2
         return dummy.next
     
-
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         cur1, cur2 = list1, list2
         dummy = ListNode(-1, None)
         p = dummy
 
         while cur1 and cur2:
-            print(cur1.value, cur2.value)
             p.next = cur1
             p = p.next
             cur1 = cur1.next
@@ -126,7 +128,6 @@ class Solution:
         if cur2:
             p.next = cur2
         return dummy.next
-
     
     def addTwoNumbers(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         num1, num2 = 0, 0
@@ -144,7 +145,6 @@ class Solution:
             p.next = ListNode(i)
             p = p.next
         return dummy.next
-    
 
     def reorderList(self, head: Optional[ListNode]) -> None:
         pre, post = self.split(head)
@@ -153,7 +153,6 @@ class Solution:
         post = self.reverseList(post)
         SinglyLinkedList.printList(post)
         return self.mergeTwoLists(pre, post)
-    
 
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         dummy = ListNode(-1, head)
@@ -166,7 +165,6 @@ class Solution:
             fast = fast.next
         slow.next = slow.next.next
         return dummy.next
-    
 
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
         pre, post = self.split(head)
@@ -179,6 +177,19 @@ class Solution:
             p2 = p2.next
 
         return True
+    
+    def sortList(self, head):
+        """
+        Merge Sort
+        """
+        if not head or not head.next:
+            return head
+        pre, post = self.split(head)
+        pre = self.sortList(pre)
+        post = self.sortList(post)
+        return self.mergeTwoSortedLists(pre, post)
+
+
 
 # %% [markdown]
 # #### [206](https://leetcode.com/problems/reverse-linked-list/description/). Reverse Linked List
