@@ -2,6 +2,7 @@
 # ---
 # jupyter:
 #   jupytext:
+#     custom_cell_magics: kql
 #     formats: ipynb,py:percent
 #     text_representation:
 #       extension: .py
@@ -315,11 +316,57 @@ sol = Solution()
 reordered_list = sol.removeNthFromEnd(linked_list.head, n=2)
 SinglyLinkedList.printList(reordered_list)
 
-
 # %% [markdown]
-# #### [234](). Palindrome Linked List
+# #### [234](https://leetcode.com/problems/palindrome-linked-list/description/). Palindrome Linked List
 # Given the `head` of a singly linked list, return `true` if it is a _palindrome_ or `false` otherwise.
 # - A palindrome is a sequence that reads the same forward and backward.
+
+# %%
+linked_list = SinglyLinkedList()
+for v in [1, 2, 3, 2, 1]:
+    linked_list.append(v)
+
+sol = Solution()
+sol.isPalindrome(linked_list.head)
+
+# %%
+linked_list = SinglyLinkedList()
+for v in [1, 2, 3, 3, 1]:
+    linked_list.append(v)
+
+sol = Solution()
+sol.isPalindrome(linked_list.head)
+
+# %%
+linked_list = SinglyLinkedList()
+for v in [1, 2, 3, 3, 2, 1]:
+    linked_list.append(v)
+
+sol = Solution()
+sol.isPalindrome(linked_list.head)
+
+# %% [markdown]
+# #### [148](https://leetcode.com/problems/sort-list/). Sort List
+# Given the `head` of a linked list, return the list after sorting it in ascending order.
+
+# %%
+linked_list = SinglyLinkedList()
+for v in [1, 2, 3, 3, 2, 1]:
+    linked_list.append(v)
+
+sol = Solution()
+sorted_list = sol.sortList(linked_list.head)
+
+SinglyLinkedList.printList(sorted_list)
+
+
+# %% [markdown]
+# #### [142](https://leetcode.com/problems/linked-list-cycle-ii/description/). Linked List Cycle II
+# Given the `head` of a linked list, return _the node where the cycle begins_. If there is no cycle, return `null`.
+#
+# There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to (0-indexed). It is -1 if there is no cycle. Note that pos is not passed as a parameter.
+#
+# Do not modify the linked list.
 
 # %%
 
