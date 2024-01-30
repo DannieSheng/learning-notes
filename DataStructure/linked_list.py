@@ -59,6 +59,38 @@ class SinglyLinkedList(object):
         print("\n")
 
 
+    @staticmethod
+    def create_linked_list_with_cycle(values, pos):
+        if not values:
+            return None
+
+        nodes = [ListNode(val) for val in values]
+
+        for i in range(len(nodes) - 1):
+            nodes[i].next = nodes[i + 1]
+
+        if pos != -1:  # pos = -1 means no cycle
+            nodes[-1].next = nodes[pos]
+
+        return nodes[0]
+
+    @staticmethod
+    def print_linked_list(head):
+        current = head
+        visited = set()
+
+        while current:
+            if current in visited:
+                print("Cycle detected!")
+                break
+
+            print(current.value, end=" -> ")
+            visited.add(current)
+            current = current.next
+
+        print("None")
+
+
 # %% [markdown]
 # ### Challenges
 
@@ -189,6 +221,20 @@ class Solution:
         pre = self.sortList(pre)
         post = self.sortList(post)
         return self.mergeTwoSortedLists(pre, post)
+    
+
+    def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        slow, fast = head, head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                fast = head
+                while slow != fast:
+                    slow = slow.next
+                    fast = fast.next
+                return slow
+        return None
 
 
 
@@ -359,7 +405,6 @@ sorted_list = sol.sortList(linked_list.head)
 
 SinglyLinkedList.printList(sorted_list)
 
-
 # %% [markdown]
 # #### [142](https://leetcode.com/problems/linked-list-cycle-ii/description/). Linked List Cycle II
 # Given the `head` of a linked list, return _the node where the cycle begins_. If there is no cycle, return `null`.
@@ -369,6 +414,13 @@ SinglyLinkedList.printList(sorted_list)
 # Do not modify the linked list.
 
 # %%
+linked_list = SinglyLinkedList.create_linked_list_with_cycle([3, 2, 0, -4], 1)
+SinglyLinkedList.print_linked_list(linked_list)
+
+# %%
+sol = Solution()
+sol.detectCycle(linked_list)
+
 
 # %% [markdown]
 # ### Doubly Linked List
