@@ -66,7 +66,6 @@ class Solution(object):
         dfs(root)
         return res
     
-    
 
 
 # %% [markdown]
@@ -136,13 +135,19 @@ class Solution(object):
 
 
 # %% [markdown]
+# #### Notes:
+# 二叉搜索树
+# * 性质：
+# 1. 左子树上所有节点的值均小于它的根节点
+# 2. 右子树上所有节点的值均大于它的根节点
+# 3. 左右子树也分别是二叉搜索树
+# 4. 二叉搜索树中序遍历=排序
+
+# %% [markdown]
 # ### Challenges
 
 # %% [markdown]
-# #### 总结：
-# 1. 求链表的中间节点后者求链表的倒数第k个节点，都是用快慢指针来解决；
-# 2. 链表排序，一般使用归并排序来解决；
-# 3. 如果操作可能会改变链表的表头，应该声明指向链表head的dummy节点，最后返回dummy.next；
+#
 
 # %%
 class Solution:
