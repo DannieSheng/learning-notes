@@ -6,3 +6,5 @@ UIUX/.DS_Store
 *.idea/
 *.xml
 *.iml
+**/data/
+*.ipynb
