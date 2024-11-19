@@ -1,11 +1,22 @@
-*/.DS_Store
+# macOS system files
 .DS_Store
+*/.DS_Store
+
+# Python files
 *.pyc
-__pychche__
-UIUX/.DS_Store
+__pycache__/
+
+# IDE and editor-specific files
 *.idea/
 *.xml
 *.iml
+
+# Data directories
 **/data/
-*.ipynb
+
+# Jupyter notebooks checkpoints
+*.ipynb_checkpoints/
+
+# Example directories
+UIUX/.DS_Store
 Fundamentals-of-music-theory/.DS_Store
